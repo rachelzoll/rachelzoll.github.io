@@ -97,11 +97,45 @@
     font-size: $type-size-5;
     font-weight: bold;
     cursor: default;
+    border-bottom: none;
   }
 
   .page__meta {
     font-size: $type-size-6;
     margin: 0 0 2px;
+    /* match text color to the title instead of the theme's default
+       lighter/muted meta color, same as siminl.com */
+    color: var(--global-text-color);
+  }
+}
+
+/* Talks: plain text list — bold title, then a venue/location/year line
+   directly below it, no icons/links/bullets — matches siminl.com/talks/ */
+.archive__item--talk {
+  margin-bottom: 0.5em;
+
+  &:hover .archive__item-title {
+    text-decoration: none;
+  }
+
+  .archive__item-title {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-bottom: none;
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--global-text-color);
+    text-decoration: none;
+    cursor: default;
+  }
+
+  .page__meta {
+    display: block;
+    margin: 0;
+    font-size: 0.95em;
+    font-weight: 400;
+    color: var(--global-text-color);
   }
 }
 
