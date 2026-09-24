@@ -7,6 +7,14 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jemoji'
   gem 'webrick', '~> 1.8'
+  gem 'csv'
+  gem 'logger'
+  gem 'base64'
+  gem 'bigdecimal'
+  gem 'tzinfo', '~> 2.0', require: 'tzinfo'
+  gem 'tzinfo-data'
+  gem 'yajl-ruby', '~> 1.4'
+  gem 'wdm', '>= 0.1.0'
 end
 
 gem 'github-pages'

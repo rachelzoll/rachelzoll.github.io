@@ -1,0 +1,9 @@
+Configuration file: C:/Users/user/Github/Portfolio/rachelzoll.github.io/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: C:/Users/user/Github/Portfolio/rachelzoll.github.io
+       Destination: C:/Users/user/Github/Portfolio/rachelzoll.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 3.592 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Rachel Zoll"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Rachel Zoll"
 description              : &description "Rachel Zoll's personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,13 +23,14 @@ repository               : "rachelzoll/rachelzoll.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "rachel_headshot.jpg"
   name             : "Rachel Zoll"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : #
   location         : "Cambridge, MA"
+  location_note    : "Open to relocation"
   employer         : "Harvard University"
-  uri              : "https://rachelzoll.github.io"
+  uri              : # "https://rachelzoll.github.io"
   email            : "zollrachelsara@gmail.com" 
 
   # Academic websites
@@ -84,8 +85,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  dissertation:
+    title: 'Dissertation'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
@@ -300,7 +303,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

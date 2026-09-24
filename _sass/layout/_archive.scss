@@ -84,6 +84,27 @@
   }
 }
 
+/* Publications: plain bibliographic list (no hover/link styling on titles,
+   since titles are plain text, not links — matches a flat CV-style list) */
+.archive__item--publication {
+  margin-bottom: 1.5em;
+
+  &:hover .archive__item-title {
+    text-decoration: none;
+  }
+
+  .archive__item-title {
+    font-size: $type-size-5;
+    font-weight: bold;
+    cursor: default;
+  }
+
+  .page__meta {
+    font-size: $type-size-6;
+    margin: 0 0 2px;
+  }
+}
+
 
 /*
    List view

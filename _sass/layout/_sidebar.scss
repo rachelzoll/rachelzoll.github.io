@@ -208,6 +208,22 @@
   }
 }
 
+.author__urls.social-icons li.author__desktop {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.5;
+
+  span {
+    flex: 1;
+  }
+}
+
+.author__location-note {
+  color: var(--global-text-color-light);
+  font-size: 1.0em;
+  font-style: italic;
+}
+
 .author__bio {
   margin: 0;
 
