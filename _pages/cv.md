@@ -1,11 +1,20 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "CV (unused placeholder)"
+permalink: /cv-template-unused/
 author_profile: true
-redirect_from:
-  - /resume
+published: false
 ---
+
+<!--
+  This is the original academicpages demo CV page (markdown-generated,
+  placeholder content). It's disabled (published: false) and no longer
+  linked from navigation — the real CV page is _pages/cv.html, which
+  embeds the actual PDF résumé. This file previously also claimed the
+  /cv/ permalink, which conflicted with cv.html and caused the CV link
+  to misbehave. Safe to delete once you've confirmed the PDF-embed CV
+  page works correctly.
+-->
 
 {% include base_path %}
 

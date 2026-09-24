@@ -112,7 +112,7 @@
 /* Talks: plain text list — bold title, then a venue/location/year line
    directly below it, no icons/links/bullets — matches siminl.com/talks/ */
 .archive__item--talk {
-  margin-bottom: 0.5em;
+  margin-bottom: 1.25em;
 
   &:hover .archive__item-title {
     text-decoration: none;
